@@ -26,6 +26,7 @@ export async function generateMetadata({
     openGraph: {
       title: chat?.title.slice(0, 50) ?? 'Chat',
       description: chat?.messages[0]?.content.slice(0, 50) ?? 'Chat',
+      url: `https://chat.zaid.dev/share/${params.id}`,
     },
     twitter: {
       card: 'summary_large_image',
