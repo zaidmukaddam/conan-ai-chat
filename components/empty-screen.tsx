@@ -28,7 +28,7 @@ export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
           Welcome to Conan O&apos;Brien AI Chatbot!
         </h1>
         <p className="mb-2 leading-normal text-muted-foreground">
-          This is an open source AI chatbot built with{' '}
+          This is a Conan O&apos;Brien AI chatbot built with{' '}
           <ExternalLink href="https://nextjs.org">Next.js</ExternalLink> and{' '}
           <ExternalLink href="https://vercel.com/storage/kv">
             Vercel KV
