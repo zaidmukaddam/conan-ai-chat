@@ -72,7 +72,7 @@ export default async function Image({ params }: ImageProps) {
               </svg>
             </div>
             <div tw="flex text-white font-bold text-6xl leading-none ml-10">
-              ...
+              {chat.messages[0].content}
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@ export default async function Image({ params }: ImageProps) {
             </div>
           </div>
           <div tw="text-[1.8rem] ml-auto text-[#9b9ba4]">
-            demo.chat.vercel.ai
+            conan-ai.za16.co
           </div>
         </div>
       </div>
