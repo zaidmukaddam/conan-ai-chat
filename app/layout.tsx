@@ -27,6 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Conan O\'Brien AI Chatbot',
     description: 'An AI-powered chatbot that can talk like Conan O\'Brien.',
+    url: 'https://conan-ai.za16.co/',
   },
   twitter: {
     card: 'summary_large_image',
