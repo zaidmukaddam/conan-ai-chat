@@ -23,7 +23,17 @@ export const metadata: Metadata = {
     icon: '/favicon.ico',
     shortcut: '/favicon-16x16.png',
     apple: '/apple-touch-icon.png'
-  }
+  },
+  openGraph: {
+    title: 'Conan O\'Brien AI Chatbot',
+    description: 'An AI-powered chatbot that can talk like Conan O\'Brien.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    creator: '@zaidmukaddam',
+    title: 'Conan O\'Brien AI Chatbot',
+    description: 'An AI-powered chatbot that can talk like Conan O\'Brien.',
+  },
 }
 
 interface RootLayoutProps {
@@ -33,7 +43,6 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head />
       <body
         className={cn(
           'font-sans antialiased',

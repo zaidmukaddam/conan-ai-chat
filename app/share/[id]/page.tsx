@@ -21,7 +21,18 @@ export async function generateMetadata({
   const chat = await getSharedChat(params.id)
 
   return {
-    title: chat?.title.slice(0, 50) ?? 'Chat'
+    title: chat?.title.slice(0, 50) ?? 'Chat',
+    description: chat?.messages[0]?.content.slice(0, 50) ?? 'Chat',
+    openGraph: {
+      title: chat?.title.slice(0, 50) ?? 'Chat',
+      description: chat?.messages[0]?.content.slice(0, 50) ?? 'Chat',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      creator: '@zaidmukaddam',
+      title: chat?.title.slice(0, 50) ?? 'Chat',
+      description: chat?.messages[0]?.content.slice(0, 50) ?? 'Chat',
+    },
   }
 }
 
