@@ -11,10 +11,10 @@ import { Header } from '@/components/header'
 
 export const metadata: Metadata = {
   title: {
-    default: 'Conan O\'Brien AI Chatbot',
+    default: `Conan O'Brien AI Chatbot`,
     template: `%s - Conan O'Brien AI Chatbot`
   },
-  description: 'An AI-powered chatbot that can talk like Conan O\'Brien.',
+  description: `An AI-powered chatbot that can talk like Conan O\'Brien.`,
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' }
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     apple: '/apple-touch-icon.png'
   },
   openGraph: {
-    title: 'Conan O\'Brien AI Chatbot',
+    title: `Conan O'Brien AI Chatbot`,
     description: 'An AI-powered chatbot that can talk like Conan O\'Brien.',
     url: 'https://conan-ai.za16.co/',
   },
