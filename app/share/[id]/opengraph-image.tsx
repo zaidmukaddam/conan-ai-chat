@@ -72,7 +72,7 @@ export default async function Image({ params }: ImageProps) {
               </svg>
             </div>
             <div tw="flex text-white font-bold text-6xl leading-none ml-10">
-              {chat.messages[0].content}
+              {chat.messages[1].content}
             </div>
           </div>
         </div>
