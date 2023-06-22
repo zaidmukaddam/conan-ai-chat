@@ -38,7 +38,7 @@ export async function Header() {
           <Link href="/" target="_blank" rel="nofollow">
             {/* <IconNextChat className="mr-2 h-6 w-6 dark:hidden" inverted />
             <IconNextChat className="mr-2 hidden h-6 w-6 dark:block" /> */}
-            <Image src="/obrien.png" alt="Conan AI Chatbot" width={120} height={30} />
+            <Image src="/obrien.png" alt="Conan AI Chatbot" width={30} height={30} />
           </Link>
         )}
         <div className="flex items-center">
